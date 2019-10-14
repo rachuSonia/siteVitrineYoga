@@ -1,0 +1,101 @@
+*{
+	box-sizing: content-box;
+} 
+body{
+	font-size: 1em;
+}
+header{
+	background-image: url(img/fond.jpg);
+	background-size: cover;
+	padding-bottom: 200px;
+	text-align: center;
+}
+header h1{
+	color: white;
+	margin-top: 140px;
+	font-size: 2em;
+	font-family: 'Kaushan Script', cursive;
+}
+strong{
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color: #d0a5d3;
+	padding: 10px;
+	margin-top: 25px;
+}
+.lien{
+	text-decoration: none;
+}
+.fa{
+	display: block;
+}
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	text-align:center;
+	margin-top: 30px;
+	color: white;
+	padding: 15px;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+.photo{
+	width: 115px;
+}
+.clear{
+	clear: both;
+}
+p{
+	font-family: 'Playfair Display', serif;
+}
+#articleun{
+	margin:30px;
+}
+#articledeux{
+	margin:30px;
+}
+#articleun h2{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+#articleun img{
+	float: left;
+}
+#articledeux h2{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+#articledeux img{
+	float: right;
+}
+#grandblock{
+	background-image: url('img/background_section.jpg');
+	background-position: right bottom;
+	background-size: cover;
+	margin-top: 20px;
+}
+.petitblock{
+	display: inline-block;
+	width: 28%;
+	text-align: center;
+	margin-left: 40px;
+	color: white;
+	vertical-align: text-top;
+}
+iframe{
+	width: 100%;
+}
+#licence{
+	display: block;
+	text-align: center;
+	padding: 25px;
+	background-color: #8b76d1;
+	color: white;
+}
+#licence img{
+	width: 40px;
+}
+#licence a{
+	color: white;
+}
